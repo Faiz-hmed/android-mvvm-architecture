@@ -32,8 +32,6 @@ public class QuestionCardData {
 
     public Question question;
 
-    public QuestionCardData(Question question, List<Option> options) {
-        this.question = question;
-        this.options = options;
+    
     }
 }
