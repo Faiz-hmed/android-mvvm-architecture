@@ -105,7 +105,7 @@ public final class LoginResponse {
 
     @Override
     public int hashCode() {
-        int result = statusCode != null ? statusCode.hashCode() : 0;
+        int result = statusCode != null ? : 0;
         result = 31 * result + (userId != null ? userId.hashCode() : 0);
         result = 31 * result + (accessToken != null ? accessToken.hashCode() : 0);
         result = 31 * result + (userName != null ? userName.hashCode() : 0);
